@@ -1,0 +1,38 @@
+body{
+    
+    
+    background-image: linear-gradient(to right, #FFE29F 0%, #FFA99F 20%);
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    margin: 20px;
+    font-size: 6rem;
+    color:rgb(245, 245, 245);
+}
+h1{
+    text-align: center;
+    color:rgb(245, 245, 245);
+}
+.dice_area{
+    margin: 0px  50px;
+    text-align: center;
+    display: inline-block;
+
+
+}
+p{
+    font-size: 2.5rem;
+    color:rgb(245, 245, 245);
+}
+img{
+    width: 320px;
+}
+#bye{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
