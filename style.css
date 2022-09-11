@@ -42,12 +42,83 @@ h1{
 
 
 }
+@media only screen and (max-width: 768px)
+    {
+    .wrapper
+    {
+        width: 70%;
+        margin-top: 16%;
+      
+        margin-left: 12%;
+        text-align: center;
+   
+        text-align: center;
+    }
+    .game
+    {
+        
+    margin-bottom: 94px;
+    margin-top: 61px;
+
+    }
+    .dicesec
+    {
+        display: flex;
+        margin-left: 0px;
+    }
+    h2{
+        margin: 20px;
+        font-size: 1.8rem;
+        color:rgb(245, 245, 245);
+        text-align: center;
+    }
+    h1
+    {
+        text-align: center;
+        color:rgb(245, 245, 245);
+    }
+    .dice_area
+    {
+        margin: 0px 26px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    
+    
+    p{
+        font-size: 2.5rem;
+        color:rgb(245, 245, 245);
+    }
+    img{
+        width: 96%;
+    }
+    #bye{
+        text-align: center;
+        font-size: 1.5rem;
+    
+    } 
+    .switch{
+        height: 50px;
+        width: 70px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        border: none;
+        color: black;
+        background-color: white;
+        
+    }
+   
+
+    
+    }
+/*for media query*/
 p{
     font-size: 2.5rem;
     color:rgb(245, 245, 245);
 }
 img{
-    width: 320px;
+    width: 242px;
 }
 #bye{
     text-align: center;
@@ -62,4 +133,5 @@ img{
     border: none;
     color: black;
     background-color: white;
+    margin-top:35px;
 }
