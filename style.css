@@ -68,12 +68,17 @@ h1{
 }
 @media (min-width: 360px) and (max-width: 760px) 
     {
+
+        .game{
+            margin-top: 25%;
+
+        }
         p{
             font-size: 1rem;
             color:rgb(245, 245, 245);
         }
         img{
-            width: 80px;
+            width: 100px;
         }
         #bye{
             text-align: center;
@@ -82,13 +87,13 @@ h1{
         } 
         .switch{
             height: 35px;
-            width: 55px;
+            width:  144px;
             font-size: 1.5rem;
             border-radius: 35px;
             border: none;
             color: black;
             background-color: white;
-            margin-top:122px;
+            margin-top: 231px;
         }
         .dicesec
         {
@@ -97,7 +102,7 @@ h1{
         }
     
     .glow {
-        font-size: 25px;
+        font-size: 32px;
         color: #fff;
         text-align: center;
         animation: glow 1s ease-in-out infinite alternate;
@@ -113,12 +118,12 @@ h1{
         }
       }
     .wrapper{
-        width: 70%;
+        width: 100%;
         margin: auto;
         text-align: center;
     }
     h2{
-        margin: 20px;
+    margin: 20px;
     font-size: 1.3rem;
     color: rgb(245, 245, 245);
     margin-bottom: 19%;
@@ -128,7 +133,8 @@ h1{
         color:rgb(245, 245, 245);
     }
     .dice_area{
-        margin: 0px  50px;
+        margin: 0px  35px;
+        margin-top: 21%;
         text-align: center;
         display: inline-block;
     
